@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
+    scroll-behavior: smooth;
 }
 
 
@@ -158,6 +159,7 @@
     font-weight: 500;
     font-size: 17px;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 
@@ -314,10 +316,33 @@ input[type="submit"]{
     border-radius: 8px;
     margin-left: 5px;
     padding: 17px 25px;
-
+    cursor: pointer;
 }
 
 
 /* 
 -------------------- Footer Section --------------------
 */
+footer{
+    width: 100%;
+    background-color: rgba(13, 19, 33, 2%);
+}
+
+.footer-section{
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-section .social-link .middle-img{
+    margin: 0 5px;
+}
