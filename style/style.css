@@ -84,7 +84,7 @@
 --------------- Why Web Development Section ----------------
 */
 .develop-section{
-    width: 1140px;
+    max-width: 1140px;
     margin: 100px auto;
     background-color: rgba(13, 19, 33, 2%);
     border-radius: 16px;
@@ -190,7 +190,7 @@ iframe{
 ---------------- Target Section ---------------
 */
 .target-section{
-    width: 1140px;
+    max-width: 1140px;
     margin: 120px auto 100px;
 }
 
@@ -224,19 +224,19 @@ iframe{
     width: 50px;
 }
 
-.target-item h3{
+.item-title{
     font-size: 24px;
     margin: 20px 0;
     color: #0D1321;
 }
 
-.target-item p{
+.item-description{
     color: #0D1321;
     word-spacing: 1.8;
     line-height: 1.7;
 }
 
-.target-item a{
+.item-link{
     display: inline-block;
     margin: 20px 0 0;
     font-size: 16px;
@@ -248,3 +248,21 @@ iframe{
 /* 
 ----------------- My Next Target Section -----------------
 */
+.next-target-section{
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+.next-target-container{
+    margin: 50px 0 0;
+}
+
+.next-target-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin: 20px 0;
+    border: 1px solid rgba(13, 19, 33, 15%);
+    border-radius: 16px;
+}
