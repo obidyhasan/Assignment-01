@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Azeret Mono", monospace;
+    color: #0D1321;
 }
 
 
@@ -76,4 +77,108 @@
     background-color: #0D1321;
     padding: 20px 20px;
     border-radius: 8px;
+}
+
+
+/* 
+--------------- Why Web Development Section ----------------
+*/
+.develop-section{
+    width: 1140px;
+    margin: 100px auto;
+    background-color: rgba(13, 19, 33, 2%);
+    border-radius: 16px;
+    padding: 80px 95px 45px;
+}
+
+.develop-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.title-text{
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+}
+
+.description-text{
+    margin: 25px 0;
+    color: #0D1321;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+.develop-container{
+    margin: 30px 0;
+}
+
+.develop-item{
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    background: linear-gradient(45deg, rgba(255,255,255,100%), rgba(255,255,255,0%));
+    border-radius: 16px;
+}
+
+.middle-item{
+    margin: 30px 0;
+    background: linear-gradient(180deg, rgba(255,255,255,100%), rgba(255,255,255,0%));
+}
+
+.develop-item .item-text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.item-text h1{
+    line-height: 1.5;
+    color: rgba(13, 19, 33, 70%);
+    font-size: 24px;
+}
+
+.item-text p{
+    line-height: 1.7;
+    color: rgba(13, 19, 33, 70%);
+}
+
+.item-text button{
+    border: 1.5px solid rgba(13, 19, 33, 70%);;
+    color: rgba(13, 19, 33, 70%);
+    background-color: white;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+
+
+/* 
+--------------------- My Inspiration Section -------------------
+*/
+.inspiration-section{
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
+.video-container{
+    margin: 50px 0 0;
+    padding: 28px;
+    border: 1px solid rgba(13, 19, 33, 20%);
+    border-radius: 16px;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+    border-radius: 16px;
 }
