@@ -182,3 +182,69 @@ iframe{
     height: 600px;
     border-radius: 16px;
 }
+
+
+
+
+/* 
+---------------- Target Section ---------------
+*/
+.target-section{
+    width: 1140px;
+    margin: 120px auto 100px;
+}
+
+.target-container{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.target-item{
+    width: 33%;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.target-item1{
+    background-color: rgba(255, 76, 30, 5%);
+}
+
+.target-item2{
+    background-color: rgba(0, 76, 232, 5%);
+}
+
+.target-item3{
+    background-color: rgba(255, 223, 0, 5%);
+}
+
+.target-item img{
+    width: 50px;
+}
+
+.target-item h3{
+    font-size: 24px;
+    margin: 20px 0;
+    color: #0D1321;
+}
+
+.target-item p{
+    color: #0D1321;
+    word-spacing: 1.8;
+    line-height: 1.7;
+}
+
+.target-item a{
+    display: inline-block;
+    margin: 20px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+/* 
+----------------- My Next Target Section -----------------
+*/
