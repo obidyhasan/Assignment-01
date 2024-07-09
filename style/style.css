@@ -266,3 +266,58 @@ iframe{
     border: 1px solid rgba(13, 19, 33, 15%);
     border-radius: 16px;
 }
+
+
+/* 
+------------------- Support Section -----------------
+*/
+.support-section{
+    max-width: 1140px;
+    height: 320px;
+    margin: 60px auto;
+    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)), url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.support-section h1{
+    color: white;
+}
+
+.support-section p{
+    color: rgb(195, 195, 195);
+    font-weight: 300;
+}
+
+input[type="text"]{
+    font-weight: 500;
+    width: 520px;
+    padding: 18px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+input[type="submit"]{
+    background-color: white;
+    font-weight: 700;
+    font-size: 17px;
+    color: #0D1321;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 17px 25px;
+
+}
+
+
+/* 
+-------------------- Footer Section --------------------
+*/
