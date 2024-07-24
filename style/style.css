@@ -9,6 +9,11 @@
     scroll-behavior: smooth;
 }
 
+/* Default Section */
+.section-padding{
+    padding: 0 20px;
+}
+
 
 /* 
 -------------- Nav Section ----------------
