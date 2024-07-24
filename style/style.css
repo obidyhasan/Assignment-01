@@ -64,12 +64,21 @@
     margin: 0 auto;
 }
 
+.hero-img{
+    max-width: 250px;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
 .hero-container h1{
     font-size: 48px;
     color: #0D1321;
 }
 
 .hero-container p{
+    max-width: 800px;
     line-height: 1.7;
     font-size: 16px;
     color: #0D1321;
@@ -102,6 +111,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -136,7 +146,7 @@
     background: linear-gradient(45deg, rgba(255,255,255,0%), rgba(255,255,255,100%));
 }
 
-.develop-item .item-text{
+.item-text{
     width: 70%;
     display: flex;
     flex-direction: column;

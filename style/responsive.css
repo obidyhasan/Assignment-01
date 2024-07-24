@@ -1,0 +1,126 @@
+/* ---------------------------------- Responsive Style ---------------------------------- */
+
+/* Medium Devices */
+@media screen and (max-width: 992px){
+
+
+    .hero-container h1{
+        font-size: 36px;
+        color: #0D1321;
+    }
+    
+    .hero-container p{
+        font-size: 16px;
+    }
+    
+    .hero-container a{
+        padding: 18px;
+    }
+
+
+    .develop-section{
+        padding: 50px 20px 20px;
+    }
+
+    .develop-container{
+        margin: 0;
+    }
+
+    .develop-item{
+        flex-direction: column-reverse;
+    }
+
+    .develop-item:nth-child(2),
+    .target-container,
+    .next-target-item,
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .item-text,
+    .item-img,
+    .target-item,
+    input[type="text"]{
+        width: 100%;
+    }
+
+    .item-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe{
+        height: 450px;
+    }
+
+    .next-target-item .item-text{
+        align-items: center;
+        text-align: center;
+    }
+
+    .support-section{
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .video-container{
+        padding: 10px;
+    }
+
+    form{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type="submit"]{
+        margin: 15px;
+    }
+
+    .footer-section{
+        gap: 30px;
+        text-align: center;
+    }
+
+}
+
+/* Small Devices */
+@media screen and (max-width: 576px){
+
+    .nav-section button{
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+
+    .hero-img{
+        max-width: 200px;
+    }
+
+    .hero-container h1{
+        font-size: 32px;
+    }
+    
+    .hero-container p{
+        font-size: 14px;
+    }
+    
+    .hero-container a{
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+
+    form{
+        width: 100%;
+    }
+
+    .develop-item{
+        padding: 10px;
+    }
+
+    iframe{
+        height: 250px;
+    }
+
+}
